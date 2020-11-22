@@ -47,13 +47,13 @@ nav ul li a:hover {
 }
 
 main {
-    margin: 94px 0 100px 0;
+    margin: 94px 0 130px 0;
     /*essa margin é para o conteúdo do main não ficar escondido atrás do header e do footer */
 }
 
 main p {
     line-height: 32px;
-    font-size: 21px; 
+    font-size: 21px;
 }
 
 main h1 {
@@ -79,7 +79,7 @@ main section.videos {
     margin: 30px auto;
 }
 
-main section.videos p{
+main section.videos p {
     font-size: 18px;
 }
 
@@ -143,12 +143,30 @@ footer {
     /* posiciona elemento no limite inferior da viewport */
     background-color: rgb(244, 245, 243);
     width: 100%;
-    height: 80px;
-}
-footer p {
-    text-align: center;
-    font-size: 20px;
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
 
 }
 
+.texto-footer {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
     
+    line-height: 5px;
+    margin: 20px;
+    width: 50%;
+
+}
+
+.icones-footer {
+    margin: 20px;
+}
+
+.icones-footer img {
+
+    height: 50px;
+    margin: 20px;
+
+
+}
