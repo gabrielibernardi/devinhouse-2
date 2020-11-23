@@ -134,12 +134,10 @@ footer {
     /* posiciona elemento no limite inferior da viewport */
     background-color: rgb(244, 245, 243);
     width: 100%;
-    height: 120px;
+    height: 110px;
     display: flex;
     justify-content: space-around;
-    box-shadow: 0px -2px grey;
-
-}
+  }
 
 .texto-footer {
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -155,5 +153,5 @@ footer {
 
 .icones-footer img {
     height: 40px;
-    margin: 20px;
+    margin: 20px 5px;
 }
