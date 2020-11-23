@@ -9,7 +9,6 @@ header {
     background-size: cover;
     display: flex;
     /* o flex está aplicado no elemento pai para alinhar os filhos <div class=logo> e <nav> */
-    justify-content: space-between;
     align-items: center;
     /* está alinhando os ítens do container no centro (no eixo y) */
     position: fixed;
