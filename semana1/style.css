@@ -94,7 +94,6 @@ main.pag2 img {
     margin: 20px auto 0px auto;
 }
 
-
 .botao-avançar {
     border: solid 2px black;
     border-radius: 20px;
@@ -122,13 +121,9 @@ form label {
     display: block;
 }
 
-
-
 .button {
     margin-left: 15px;
 }
-
-
 
 footer {
     position: fixed;
@@ -152,11 +147,7 @@ footer {
     line-height: 5px;
     margin: 20px;
     width: 50%;
-
 }
-
-
-
 
 .icones-footer {
     margin: 20px;
@@ -166,5 +157,4 @@ footer {
 
     height: 40px;
     margin: 20px;
-    
 }
