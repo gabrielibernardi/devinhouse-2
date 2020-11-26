@@ -1,9 +1,4 @@
 
-/*Exercício 6:
-
-var ultimoSobrenome = prompt("Qual seu último sobrenome?");
-alert("Olá, " + ultimoSobrenome.toUpperCase() + ". Seu sobrenome contém " + ultimoSobrenome.length + " letras.");*/
-
 //Exercício 7:
 
 var anoDeNascimento = prompt("Qual o ano do seu nascimento?");
