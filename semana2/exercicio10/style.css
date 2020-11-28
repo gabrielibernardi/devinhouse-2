@@ -1,0 +1,21 @@
+body {
+    font-size: 20px;
+    margin: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#container {
+    display: flex;
+}
+
+#valores {
+
+    padding: 20px;
+}
+
+#botoes {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+
+}

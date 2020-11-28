@@ -19,7 +19,7 @@ e então exiba a idade em um texto na página HTML. */
  } */
 
 
-function calcularIdade (hoje, Data) {
+function calcularIdade(hoje, Data) {
     var idade = hoje - Data;
     return idade;
 }
@@ -28,9 +28,6 @@ document.querySelector('button').onclick = function () {
     var data = document.getElementById('data').value;
     var datasplited = data.split('-');
     var hoje = new Date().getFullYear();
-    var idade = calcularIdade (hoje, datasplited[0]);
+    var idade = calcularIdade(hoje, datasplited[0]);
     document.getElementById('idade').innerText = idade;
 }
-
-
-
