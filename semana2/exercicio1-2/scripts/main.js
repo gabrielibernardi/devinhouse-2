@@ -1,7 +1,15 @@
 //Exercício 1 e 2:
 
-alert ("Cuidado!");
-confirm("Você deseja continuar?");
+/*botao.addEventListener('click', function() {
+confirm("Cuidado! Você deseja continar?")
 
+})*/
 
+var fotosFifi = document.getElementById('fotosFifi');
 
+function conteudoSensivel() {
+    var resposta = confirm('Você realmente deseja seguir?');
+    if (resposta) {
+        fotosFifi.style.display = 'block'
+    }
+}

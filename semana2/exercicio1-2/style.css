@@ -1,0 +1,22 @@
+body {
+    margin: 30px;
+}
+
+button {
+    background-color: rgb(200, 225, 109);
+    height: 50px;
+    width: 150px;
+    border-radius: 5px;
+    font-size: medium;
+    border: solid 1px;
+
+}
+
+#fotosFifi {
+    display: none;
+    display: flex;
+}
+
+img {
+    margin: 30px;
+}
