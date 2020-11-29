@@ -1,63 +1,22 @@
-//Exercício 9:
+//Exercício 10:
 
-/* Faça uma página HTML contendo 2 campos de texto (dica: input type number),
- para que o usuário possa inserir, em cada um, o valor que deseja calcular.
+/* Em uma página HTML, insira um campo de texto para que o usuário insira um número.
 
-Coloque também na sua página 4 botões, um indicando soma, outro subtração, outro multiplicação, e outro divisão.
-Adicione um outro campo de texto, apenas leitura (readonly).
-
-Quando o usuário clicar no botão de soma (multiplicação, divisão ou subtração), 
-a sua página deve somar (multiplicar, dividir ou subtrair) os 2 valores inseridos 
-pelo usuário e exibir o resultado no campo de texto readonly.*/
+Programe uma função em JavaScript para verificar se o número inserido pelo usuário é par ou ímpar, 
+e informe o usuário através de um texto na página HTML.*/
 
 
-function somar(primeiroValor, segundoValor) {
-    let resultado = primeiroValor + segundoValor
-    return resultado
-}
-
-function subtrair(primeiroValor, segundoValor) {
-    let resultado = primeiroValor - segundoValor
-    return resultado
-}
-
-function multiplicar(primeiroValor, segundoValor) {
-    let resultado = primeiroValor * segundoValor
-    return resultado
-}
-
-function dividir(primeiroValor, segundoValor) {
-    let resultado = primeiroValor / segundoValor
-    return resultado
+function parOuImpar(numero) {
+    if (numero % 2 === 0) {
+        return "Par"
+    } else {
+        return "Ímpar"
+    }
 }
 
 
-
-btnSomar.addEventListener('click', function () {
-    let primeiroValor = Number(document.getElementById("inputValor1").value)
-    let segundoValor = Number(document.getElementById("inputValor2").value)
-    let resultado = somar(primeiroValor, segundoValor)
-    document.getElementById("result").value = resultado
+btnVerificar.addEventListener('click', function () {
+    let numero = Number(document.getElementById("inputNumero").value)
+    let resultado = parOuImpar(numero)
+    document.getElementById("resultado").innerText = resultado
 })
-
-btnSubtrair.addEventListener('click', function () {
-    let primeiroValor = Number(document.getElementById("inputValor1").value)
-    let segundoValor = Number(document.getElementById("inputValor2").value)
-    let resultado = subtrair(primeiroValor, segundoValor)
-    document.getElementById("result").value = resultado
-})
-
-btnMultiplicar.addEventListener('click', function () {
-    let primeiroValor = Number(document.getElementById("inputValor1").value)
-    let segundoValor = Number(document.getElementById("inputValor2").value)
-    let resultado = multiplicar(primeiroValor, segundoValor)
-    document.getElementById("result").value = resultado
-})
-
-btnDividir.addEventListener('click', function () {
-    let primeiroValor = Number(document.getElementById("inputValor1").value)
-    let segundoValor = Number(document.getElementById("inputValor2").value)
-    let resultado = dividir(primeiroValor, segundoValor)
-    document.getElementById("result").value = resultado
-})
-
