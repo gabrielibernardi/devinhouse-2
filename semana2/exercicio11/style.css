@@ -1,0 +1,13 @@
+body {
+    font-size: 20px;
+    margin: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#relogio {
+    font-size: 50px;
+    border: solid 2px;
+    border-radius: 2px;
+    width: fit-content;
+    padding: 20px;
+}
