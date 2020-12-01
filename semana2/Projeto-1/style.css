@@ -33,25 +33,25 @@ header p.subtitle {
 header img {
     width: 38px;
     margin-left: 10px;
-    fill:white
+    fill: white
 }
 
 
 .container {
-    width: 40%;
+    width: 30%;
     margin: auto;
 }
 
 .inserir {
     margin-top: 60px;
     display: flex;
-
 }
 
 .inserir button {
     width: 14%;
     height: 40px;
     margin-left: 10px;
+    border:none;
 }
 
 .inserir textarea {
@@ -59,12 +59,10 @@ header img {
     width: 85%;
     height: 18px;
     font-family: Arial, Helvetica, sans-serif;
-
 }
 
 ul {
     list-style: none;
-
 }
 
 .tarefa {
@@ -80,4 +78,5 @@ ul {
 
 .tarefa button {
     padding: 5px;
+    border: none;
 }
