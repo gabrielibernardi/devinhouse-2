@@ -31,6 +31,8 @@ function getestacao(hoje) {
     }
 }
 
+
+
 var ano = new Date().getFullYear()
 var hoje = new Date().getTime()
 //var hoje = new Date("January 31, 2021 00:00:00").getTime() teste outra data

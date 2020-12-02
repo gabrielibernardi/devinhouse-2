@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <link rel="stylesheet" href="style.css">
+<script src="scripts/main.js" defer></script>
 <link rel="shortcut icon" href="img/to-do-list-color.png">
 
 <head>
@@ -17,37 +18,37 @@
             <p class="subtitle">sua lista de afazeres</p>
         </div>
     </header>
-    <div class="container">
+    <section class="container">
         <div class="inserir">
-            <textarea name="inserirtarefas" id="inserirtarefas" rows="2"
+            <textarea name="inserirtarefas" id="inserirTarefas" rows="2"
                 placeholder="Insira aqui a sua tarefa"></textarea>
-            <button>Adicionar</button>
+            <button id="btnAdd">Adicionar</button>
         </div>
         <div>
-            <ul>
+            <ul id="listaTarefa">
                 <li class="tarefa">
-                    <div><input type="checkbox" /><span class="texto"> Estudar HTML</span></div><button
+                    <div><input type="checkbox" /><span class="texto">Estudar HTML</span></div><button
                         class="deletar">X</button>
                 </li>
                 <li class="tarefa">
-                    <div><input type="checkbox" /><span class="texto"> Estudar CSS</span></div><button
+                    <div><input type="checkbox" /><span class="texto">Estudar CSS</span></div><button
                         class="deletar">X</button>
                 </li>
                 <li class="tarefa">
-                    <div><input type="checkbox" /><span class="texto"> Fazer mercado</span></div><button
+                    <div><input type="checkbox" /><span class="texto">Fazer mercado</span></div><button
                         class="deletar">X</button>
                 </li>
                 <li class="tarefa">
-                    <div><input type="checkbox" /><span class="texto"> Levar Fifi no Veterinário</span></div><button
-                        class="deletar">X</button>
-                <li class="tarefa">
-                    <div><input type="checkbox" /><span class="texto"> Limpar o quarto</span></div><button
+                    <div><input type="checkbox" /><span class="texto">Levar Fifi no Veterinário</span></div><button
                         class="deletar">X</button>
                 </li>
+                <li class="tarefa">
+                    <div><input type="checkbox" /><span class="texto">Limpar o quarto</span></div><button
+                        class="deletar">X</button>
                 </li>
             </ul>
         </div>
-    </div>
+    </section>
 </body>
 
 </html>
