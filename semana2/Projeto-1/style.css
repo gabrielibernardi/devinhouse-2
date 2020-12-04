@@ -38,7 +38,7 @@ header img {
 
 
 .container {
-    width: 30%;
+    width: 40%;
     margin: auto;
 }
 
@@ -48,7 +48,7 @@ header img {
 }
 
 .inserir button {
-    width: 14%;
+    width: 16%;
     height: 40px;
     margin-left: 10px;
     border:none;
@@ -81,4 +81,11 @@ ul {
 .tarefa button {
     padding: 5px;
     border: none;
+}
+.tarefa .texto {
+    font-size: 14px;
+}
+
+.tarefa .texto.line {
+    text-decoration: line-through;
 }
