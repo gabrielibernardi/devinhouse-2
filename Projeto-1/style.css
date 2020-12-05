@@ -1,0 +1,91 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+header {
+    width: 100%;
+    background-color: #db4c3f;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+header p {
+    font-size: 25px;
+    color: white;
+    padding: 10px 0px 10px 10px;
+
+}
+
+header p.subtitle {
+    font-size: 12px;
+    margin-top: -20px;
+    font-style: italic;
+
+}
+
+header img {
+    width: 38px;
+    margin-left: 10px;
+    fill: white
+}
+
+
+.container {
+    width: 40%;
+    margin: auto;
+}
+
+.inserir {
+    margin-top: 80px;
+    display: flex;
+}
+
+.inserir button {
+    width: 16%;
+    height: 40px;
+    margin-left: 10px;
+    border:none;
+}
+
+.inserir textarea {
+    padding: 10px;
+    width: 85%;
+    height: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+.tarefa {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+.tarefa span {
+    margin-left: 5px;
+    flex-grow: 1;
+}
+
+.tarefa button {
+    padding: 5px;
+    border: none;
+}
+.tarefa .texto {
+    font-size: 14px;
+}
+
+.tarefa .texto.line {
+    text-decoration: line-through;
+}
