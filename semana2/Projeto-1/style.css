@@ -17,21 +17,21 @@ header {
 }
 
 header p {
-    font-size: 25px;
+    font-size: 24px;
     color: white;
     padding: 10px 0px 10px 10px;
 
 }
 
 header p.subtitle {
-    font-size: 12px;
+    font-size: 13px;
     margin-top: -20px;
     font-style: italic;
 
 }
 
 header img {
-    width: 38px;
+    width: 35px;
     margin-left: 10px;
     fill: white
 }
@@ -51,7 +51,9 @@ header img {
     width: 16%;
     height: 40px;
     margin-left: 10px;
-    border:none;
+    border: solid 1px #db4c3f;
+    border-radius: 2px;
+    color: black;
 }
 
 .inserir textarea {
@@ -59,6 +61,9 @@ header img {
     width: 85%;
     height: 18px;
     font-family: Arial, Helvetica, sans-serif;
+    border: solid 1px #db4c3f;
+    border-radius: 3px;
+    color: #db4c3f;
 }
 
 ul {
@@ -70,7 +75,7 @@ ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
-   
+
 }
 
 .tarefa span {
@@ -80,8 +85,12 @@ ul {
 
 .tarefa button {
     padding: 5px;
-    border: none;
+    border: solid 1px #db4c3f;
+    border-radius: 2px;
+    color: #db4c3f;
+    
 }
+
 .tarefa .texto {
     font-size: 14px;
 }
